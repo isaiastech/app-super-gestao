@@ -10,3 +10,4 @@ use App\Http\Controllers\Principal;
 Route::get('/', [App\Http\Controllers\Principal::class, 'index'])->name('site.principal');
 Route::get('/sobre-nos', [App\Http\Controllers\SobreNos::class, 'index'])->name('site.sobre-nos');
 Route::get('/contato', [App\Http\Controllers\Contato::class, 'index'])->name('site.contato');
+Route::post('/contato', [App\Http\Controllers\Contato::class, 'index'])->name('site.contato');
