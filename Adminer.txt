@@ -1,0 +1,11 @@
+🔐 Dados para login no Adminer
+
+Sistema: MySQL
+
+Servidor: mysql
+
+Usuário: root
+
+Senha: (a do seu .env, provavelmente password)
+
+Banco: gestao
