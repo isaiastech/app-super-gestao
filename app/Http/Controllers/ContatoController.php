@@ -14,6 +14,7 @@ class ContatoController extends Controller
 
     public function store(Request $request)
     {
+     
         $request->validate([
             'nome' => 'required|min:3|max:40',
             'telefone' => 'required',

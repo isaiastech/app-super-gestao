@@ -4,12 +4,12 @@
 {{ $slot }}
 <form method="POST" action="{{ route('site.contato') }}">
   @csrf
-  <input name="nome" type="text" placeholder="Nome" value="{{ old('nome') }}" class="{{ $classe }} @error('nome') borda-vermelha @enderror">
+  <input  name="nome" type="text" placeholder="Nome" value="{{ old('nome') }}" class="{{ $classe }} @error('nome') borda-vermelha @enderror">
   @error('nome')
   <small class="text-danger">{{ $message }}</small>
   @enderror
   <br>
-  <input name="telefone" type="text" placeholder="Telefone" value="{{ old('telefone') }}" class="{{ $classe }} @error('telefone') borda-vermelha @enderror">
+  <input id="telefone" name="telefone" type="text" placeholder="Telefone" value="{{ old('telefone') }}" class="{{ $classe }} @error('telefone') borda-vermelha @enderror">
   @error('telefone')
   <small class="text-danger">{{ $message }}</small>
   @enderror
