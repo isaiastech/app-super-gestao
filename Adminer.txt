@@ -4,7 +4,7 @@ Sistema: MySQL
 
 Servidor: mysql
 
-Usuário: root
+Usuário: sail
 
 Senha: (a do seu .env, provavelmente password)
 

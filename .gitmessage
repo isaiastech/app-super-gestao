@@ -1,0 +1,61 @@
+# <tipo>(<escopo>): <descrição curta no imperativo>
+#
+# Máx 50 caracteres
+# Usar verbo no imperativo: adicionar, corrigir, remover
+
+# ==================================================
+# TIPOS
+# ==================================================
+# feat     = nova funcionalidade
+# fix      = correção de bug
+# docs     = documentação
+# style    = formatação (sem alterar lógica)
+# refactor = refatoração de código
+# perf     = melhoria de performance
+# test     = testes automatizados
+# build    = build, dependências, Docker
+# ci       = CI/CD
+# chore    = tarefas gerais/manutenção
+# revert   = reverter commit
+
+# ==================================================
+# ESCOPOS DO PROJETO (usar quando fizer sentido)
+# ==================================================
+# produto       = CRUD de produtos
+# estoque       = controle de estoque
+# fornecedor    = fornecedores
+# auth          = autenticação
+# api           = rotas API
+# web           = rotas web
+# blade         = views / components
+# migration     = migrations banco
+# seed          = seeders
+# model         = models
+# controller    = controllers
+# request       = form requests
+# validation    = regras validação
+# docker        = Docker / Sail
+# config        = arquivos de configuração
+# security      = segurança
+# git           = configuração Git
+
+# ==================================================
+# EXEMPLOS
+# ==================================================
+# feat(produto): adicionar campo peso no cadastro
+# fix(auth): corrigir erro de login com sessão
+# refactor(controller): melhorar organização ProdutoController
+# build(docker): atualizar versão do PHP no Sail
+
+# ==================================================
+# CORPO (opcional)
+# ==================================================
+# Explique o que foi feito e por quê.
+# Separe título e corpo com linha em branco.
+# Quebre linhas em até 72 caracteres.
+
+# ==================================================
+# RODAPÉ (opcional)
+# ==================================================
+# BREAKING CHANGE: descreva mudanças incompatíveis
+# Closes #numero-da-issue
